@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["e@osterman.com"]
   gem.description   = %q{Tailer is a utility for streaming files over SSH}
   gem.summary       = %q{Tailer is a utility for streaming files over SSH}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/osterman/tailer"
   gem.license       = "GPL3"
 
   gem.files         = `git ls-files`.split($\)

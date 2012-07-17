@@ -15,4 +15,5 @@ Gem::Specification.new do |gem|
   gem.name          = "tailer"
   gem.require_paths = ["lib"]
   gem.version       = Tailer::VERSION
+  gem.add_runtime_dependency "eventmachine", ">= 1.0.0.beta.4"
 end
